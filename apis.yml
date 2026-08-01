@@ -1,8 +1,25 @@
 aid: simpleclub
 name: Simpleclub
-description: 'Simpleclub is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Simpleclub is a German digital learning platform serving over two million students (grades 5-13),
+  apprentices, and organizations across school, vocational training (Ausbildung), continuing education, retraining,
+  and workforce upskilling. The product pairs curriculum-aligned content (including IHK-aligned vocational tracks)
+  with an AI-powered learning assistant, trainer/learning-management tooling, and the ability for organizations to
+  upload custom content. It counts 750+ corporate clients such as Deutsche Bahn, Bosch, and Vodafone. Simpleclub
+  maintains a public GitHub organization of open-source Flutter tooling (math keyboard, flutter_math, design-token
+  builder) but publishes no public developer API, developer portal, or machine-readable API specification; this
+  profile is an end-user/EdTech company record rather than an API provider.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/611e5a5da418c8b50790ad21/6919b5ba8cb71ce431a8e6fd_simpleclub-logo-white.svg
 url: https://raw.githubusercontent.com/api-evangelist/simpleclub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai Enterprise Software
+- Education
+- E-Learning
+- EdTech
+- Learning Platform
+- Vocational Training
+- Artificial Intelligence
+- SaaS
+- Germany
 apis: []
+common:
+- type: TrustCenter
+  url: security/simpleclub-trust-center.yml
+- type: DomainSecurity
+  url: security/simpleclub-domain-security.yml
+- type: Compliance
+  url: https://trust.simpleclub.com/
+- type: Website
+  url: https://simpleclub.com/
+- type: GitHubOrganization
+  url: https://github.com/simpleclub
+- type: Support
+  url: https://support.simpleclub.com/hc/de
+- type: Login
+  url: https://app.simpleclub.com/
+- type: PrivacyPolicy
+  url: https://simpleclub.com/datenschutz
+- type: TermsOfService
+  url: https://simpleclub.com/nutzungsbedingungen
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
