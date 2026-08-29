@@ -8,6 +8,17 @@ description: 'Simpleclub is a German digital learning platform serving over two 
   maintains a public GitHub organization of open-source Flutter tooling (math keyboard, flutter_math, design-token
   builder) but publishes no public developer API, developer portal, or machine-readable API specification; this
   profile is an end-user/EdTech company record rather than an API provider.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
